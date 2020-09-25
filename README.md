@@ -1,7 +1,7 @@
 # DGM-1600
 Basic site for DGM 1600
 
-Here I will create my personal protfolio webpage. 
+Here I will create my personal portfolio webpage. 
 
 
 
