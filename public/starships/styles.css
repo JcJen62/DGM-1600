@@ -25,11 +25,12 @@ header, footer {
   display: flex;
   justify-content: center;
   background: linear-gradient(to bottom, #777 0%, #333 100%);
-  color: white;
+  color: gold;
 }
 
 .main img{
   float: right;
+  padding: 10rem 3rem 0 0;
 }
 
 .navList {
@@ -40,12 +41,30 @@ header, footer {
   clear: both;
 }
 
-.main {
-  margin: 3rem;
-}
-
 .box {
   justify-content: center;
   display: flex;
   padding: 8px;
+  color: gold;
+}
+
+.background {
+  background-color: black;
+  background-image: url("../Images/Star_Wars_Logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0 0 5rem 5rem;
+}
+
+li {
+  color: gold;
+  padding-bottom: 8px;
+}
+
+body a:link {
+  text-decoration: none;
 }
