@@ -21,3 +21,31 @@ h6 {
   visibility: hidden;
 }
 
+header, footer {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to bottom, #777 0%, #333 100%);
+  color: white;
+}
+
+.main img{
+  float: right;
+}
+
+.navList {
+  list-style-type: none;
+}
+
+#loadWall {
+  clear: both;
+}
+
+.main {
+  margin: 3rem;
+}
+
+.box {
+  justify-content: center;
+  display: flex;
+  padding: 8px;
+}
