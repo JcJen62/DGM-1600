@@ -17,12 +17,15 @@ for (let i = 0; i < films.length; i++) {
     let elementFigure = document.createElement('figure')
     let figImg = document.createElement('img')
     let figCaption = document.createElement('figcaption')
+    let paragraph = document.createElement('p')
     figImg.src = `https://starwars-visualguide.com/assets/img/films/${getImageId(film.episode_id)}.jpg`
     figCaption.textContent = film.title
+    paragraph.textContent = film.opening_crawl
 
     elementFigure.appendChild(figImg)
     elementFigure.appendChild(figCaption)
 
     main.appendChild(elementFigure)
+    main.appendChild(paragraph)
 }
 
