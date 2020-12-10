@@ -10,3 +10,4 @@ Here I will create my personal portfolio webpage.
 
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [JavaScript](https://www.javascript.com/)
