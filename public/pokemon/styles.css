@@ -27,8 +27,7 @@ h1 {
   margin: 1rem;
 }
 
-.load {
-}
+.load {}
 
 .pokemonGrid {
   display: flex;
@@ -53,4 +52,68 @@ h1 {
 
 .button3:hover {
   background-color: #4095c6;
+}
+
+.scene {
+  width: 200px;
+  height: 260px;
+  border: 1px solid #CCC;
+  margin: 10px;
+  perspective: 600px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  transition: transform 1000ms;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+}
+
+.card__face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card__face--front {
+  background: lightblue;
+}
+
+.card__face--back {
+  background: rgb(37, 178, 224);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.card.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.pokeHero {
+  width: 90%;
+  height: 90%;
+}
+
+.heroPokeName {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.lableTitle {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: .8rem;
+}
+
+.descriptionTitle {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: .8rem;
+}
+
+.moveText {
+  text-transform: capitalize;
 }
