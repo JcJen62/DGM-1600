@@ -19,10 +19,14 @@ h6 {
 
 h1 {
   text-align: center;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 5em;
+  letter-spacing: -2px;
 }
 
 h2 {
   text-align: center;
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 .buttonContainer {
@@ -30,8 +34,6 @@ h2 {
   justify-content: center;
   margin: 1rem;
 }
-
-.load {}
 
 .pokemonGrid {
   display: flex;
@@ -64,6 +66,7 @@ h2 {
   border: 1px solid #CCC;
   margin: 10px;
   perspective: 600px;
+  filter: drop-shadow(30px 10px 4px rgba(0, 0, 0, 0.5));
 }
 
 .card {
@@ -104,6 +107,7 @@ h2 {
 .heroPokeName {
   text-align: center;
   text-transform: capitalize;
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 .lableTitle {
@@ -116,8 +120,10 @@ h2 {
   text-align: center;
   font-weight: bold;
   margin-bottom: .8rem;
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 .moveText {
   text-transform: capitalize;
+  font-family: "Trebuchet MS", sans-serif;
 }
