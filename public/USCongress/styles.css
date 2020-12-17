@@ -55,3 +55,15 @@ h6 {
       display: flex;
       flex-wrap: wrap;
   }
+
+  i {
+      margin-left: 1.5rem;
+  }
+
+  body {
+      background-color: ivory;
+  }
+
+  .senatorDiv:hover {
+    transform: scale(1.1);
+  }

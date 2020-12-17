@@ -36,11 +36,11 @@ function populateSenatorDiv(simpleSenators) {
     removeChildren(senatorGrid)
     simpleSenators.forEach(senator => {
         let senDiv = document.createElement('div')
+        senDiv.className = 'senatorDiv'
         let senFigure = document.createElement('figure')
         let figImg = document.createElement('img')
         let figCaption = document.createElement('figcaption')
         let partyIcon = document.createElement('i')
-        let age = document.createElement('div')
         if (senator.party === 'R') partyIcon.className = 'fas fa-republican'
         if (senator.party === 'D') partyIcon.className = 'fas fa-democrat'
         if (senator.party === 'ID') partyIcon.className = 'fas fa-star'
