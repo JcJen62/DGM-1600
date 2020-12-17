@@ -67,3 +67,12 @@ h6 {
   .senatorDiv:hover {
     transform: scale(1.1);
   }
+
+  header {
+      text-align: center;
+  }
+  
+  .congressBuild {
+    height: 50%;
+    width: 50%;
+  }
