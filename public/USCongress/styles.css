@@ -7,14 +7,14 @@ h3,
 h4,
 h5,
 h6 {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 * {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* Button Styles */
@@ -25,54 +25,49 @@ h6 {
     border-radius: .5em;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    color: #000000;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #ffffff;
     background-color: #2b6e96;
     text-align: center;
     transition: all 0.2s;
     font-weight: bolder;
-  }
-  
-  .button3:hover {
-    background-color: #4095c6;
-  }
+}
 
-  #button {
+.button3:hover {
+    background-color: #4095c6;
+}
+
+#button {
     display: flex;
     justify-content: center;
     margin: 1rem;
-  }
+}
 
-  /* h1 Styles */
-  h1 {
+/* h1 Styles */
+h1 {
     text-align: center;
     font-family: "Trebuchet MS", sans-serif;
     font-size: 4em;
     letter-spacing: -2px;
-  }
+}
 
-  .senatorGrid {
-      display: flex;
-      flex-wrap: wrap;
-  }
+.senatorGrid {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-  i {
-      margin-left: 1.5rem;
-  }
+i {
+    margin-left: 1rem;
+}
 
-  body {
-      background-color: ivory;
-  }
+body {
+    background-color: ivory;
+}
 
-  .senatorDiv:hover {
+.senatorDiv:hover {
     transform: scale(1.1);
-  }
+}
 
-  header {
-      text-align: center;
-  }
-  
-  .congressBuild {
-    height: 50%;
-    width: 50%;
-  }
+figcaption {
+    font-family: "Trebuchet MS", sans-serif;
+}
