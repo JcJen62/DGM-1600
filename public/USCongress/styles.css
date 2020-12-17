@@ -61,7 +61,8 @@ i {
 }
 
 body {
-    background-color: ivory;
+    background-color: lightyellow;
+    background-image: linear-gradient(62deg, rgb(247, 240, 151) 0%, rgb(241, 239, 198) 100%);
 }
 
 .senatorDiv:hover {

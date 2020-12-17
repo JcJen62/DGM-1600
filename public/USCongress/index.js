@@ -130,9 +130,6 @@ function nextElectionSort() {
     }))
 }
 
-console.log(oldestSenator)
-console.log(nextElection)
-
 populateSenatorDiv(getMySenatorData(senators))
 
 function removeChildren(container) {
