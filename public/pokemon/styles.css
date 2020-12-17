@@ -127,3 +127,7 @@ h2 {
   text-transform: capitalize;
   font-family: "Trebuchet MS", sans-serif;
 }
+
+li {
+  list-style: circle;
+}
